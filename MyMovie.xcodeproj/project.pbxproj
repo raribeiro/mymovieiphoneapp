@@ -14,6 +14,13 @@
 		599918F929C61A0900A65EF4 /* MyMovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 599918F729C61A0900A65EF4 /* MyMovie.xcdatamodeld */; };
 		599918FB29C61A0B00A65EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599918FA29C61A0B00A65EF4 /* Assets.xcassets */; };
 		599918FE29C61A0B00A65EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599918FC29C61A0B00A65EF4 /* LaunchScreen.storyboard */; };
+		5999190629C6368400A65EF4 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 5999190529C6368400A65EF4 /* movies.json */; };
+		5999190A29C63D9700A65EF4 /* MovieViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999190929C63D9700A65EF4 /* MovieViewControllerTableViewController.swift */; };
+		5999190C29C6427200A65EF4 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999190B29C6427200A65EF4 /* MovieTableViewCell.swift */; };
+		599D59C729C7512100076E71 /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D59C629C7512100076E71 /* UIViewController+CoreData.swift */; };
+		599D59CB29C7629600076E71 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599D59CA29C7629600076E71 /* AddEditViewController.swift */; };
+		599FC66029C7943700297886 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC65F29C7943700297886 /* SetViewController.swift */; };
+		599FC66229C7A13D00297886 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599FC66129C7A13D00297886 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		599918FA29C61A0B00A65EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		599918FD29C61A0B00A65EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		599918FF29C61A0B00A65EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5999190529C6368400A65EF4 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movies.json; path = movies/movies.json; sourceTree = SOURCE_ROOT; };
+		5999190929C63D9700A65EF4 /* MovieViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		5999190B29C6427200A65EF4 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		599D59C629C7512100076E71 /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
+		599D59CA29C7629600076E71 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		599FC65F29C7943700297886 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		599FC66129C7A13D00297886 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +72,21 @@
 		599918ED29C61A0900A65EF4 /* MyMovie */ = {
 			isa = PBXGroup;
 			children = (
+				5999190529C6368400A65EF4 /* movies.json */,
 				599918EE29C61A0900A65EF4 /* AppDelegate.swift */,
 				599918F029C61A0900A65EF4 /* SceneDelegate.swift */,
 				599918F229C61A0900A65EF4 /* ViewController.swift */,
+				5999190929C63D9700A65EF4 /* MovieViewControllerTableViewController.swift */,
+				5999190B29C6427200A65EF4 /* MovieTableViewCell.swift */,
+				599D59CA29C7629600076E71 /* AddEditViewController.swift */,
+				599D59C629C7512100076E71 /* UIViewController+CoreData.swift */,
 				599918F429C61A0900A65EF4 /* Main.storyboard */,
 				599918FA29C61A0B00A65EF4 /* Assets.xcassets */,
 				599918FC29C61A0B00A65EF4 /* LaunchScreen.storyboard */,
 				599918FF29C61A0B00A65EF4 /* Info.plist */,
 				599918F729C61A0900A65EF4 /* MyMovie.xcdatamodeld */,
+				599FC65F29C7943700297886 /* SetViewController.swift */,
+				599FC66129C7A13D00297886 /* API.swift */,
 			);
 			path = MyMovie;
 			sourceTree = "<group>";
@@ -130,6 +151,7 @@
 			files = (
 				599918FE29C61A0B00A65EF4 /* LaunchScreen.storyboard in Resources */,
 				599918FB29C61A0B00A65EF4 /* Assets.xcassets in Resources */,
+				5999190629C6368400A65EF4 /* movies.json in Resources */,
 				599918F629C61A0900A65EF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,8 +164,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				599918F329C61A0900A65EF4 /* ViewController.swift in Sources */,
+				599FC66029C7943700297886 /* SetViewController.swift in Sources */,
 				599918EF29C61A0900A65EF4 /* AppDelegate.swift in Sources */,
+				5999190C29C6427200A65EF4 /* MovieTableViewCell.swift in Sources */,
+				599FC66229C7A13D00297886 /* API.swift in Sources */,
 				599918F929C61A0900A65EF4 /* MyMovie.xcdatamodeld in Sources */,
+				599D59CB29C7629600076E71 /* AddEditViewController.swift in Sources */,
+				599D59C729C7512100076E71 /* UIViewController+CoreData.swift in Sources */,
+				5999190A29C63D9700A65EF4 /* MovieViewControllerTableViewController.swift in Sources */,
 				599918F129C61A0900A65EF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +325,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.MyMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,8 +356,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.fiap.MyMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7F7263BA-4E1B-4771-9727-93264CEF8C0E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F62036D-8073-4979-870B-602972E815FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMovie/SetViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SetViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7F62036D-8073-4979-870B-602972E815FC - 2e74fe6088347436"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMovie.SetViewController.playSwitch.getter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "MyMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Sansung%20HD/FIAP/MyMovie/MyMovie/SetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7F62036D-8073-4979-870B-602972E815FC - 7365b591838e9422"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMovie.SetViewController.playSwitch.setter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "MyMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Sansung%20HD/FIAP/MyMovie/MyMovie/SetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "7F62036D-8073-4979-870B-602972E815FC - dcf7f6bb07bdec33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMovie.SetViewController.playSwitch.modify : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "MyMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Sansung%20HD/FIAP/MyMovie/MyMovie/SetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7F62036D-8073-4979-870B-602972E815FC - bf1d2b990eefbc7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMovie.SetViewController.playSwitch.modify : Swift.Optional&lt;__C.UISwitch&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Sansung%20HD/FIAP/MyMovie/MyMovie/SetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7F62036D-8073-4979-870B-602972E815FC - 69c8cf1ee4f6a853"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMovie.SetViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyMovie.SetViewController"
+                  moduleName = "MyMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Sansung%20HD/FIAP/MyMovie/MyMovie/SetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "7F62036D-8073-4979-870B-602972E815FC - 666a18adff92c4c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMovie.SetViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyMovie.SetViewController&gt;"
+                  moduleName = "MyMovie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Sansung%20HD/FIAP/MyMovie/MyMovie/SetViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "968A8500-410F-4DF6-9703-7A46EE81D472"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMovie/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "loadTrailers(title:onComplete:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
