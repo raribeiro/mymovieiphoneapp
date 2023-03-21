@@ -131,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qIr-wi-E4c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2489" y="-899"/>
+            <point key="canvasLocation" x="1526" y="804"/>
         </scene>
         <!--Movie View Controller Table View Controller-->
         <scene sceneID="uoW-LS-P6h">
@@ -391,7 +391,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="o6X-9T-Sa1"/>
+        <segue reference="Q7W-NK-Wbs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="avengers" width="400" height="330"/>
